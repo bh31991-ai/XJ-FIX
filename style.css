@@ -1,0 +1,50 @@
+/* Spacing correction */
+body, h1, ul, li, p {margin: 0;padding: 0;}
+
+/* Font and background color*/
+body {font-family: Arial, sans-serif;background-color: #000000;}
+
+/* Header layout */
+header {background-color: #0d7de6bd;color: white;display: flex;align-items: center;justify-content: space-between; padding: 15px 0;}
+
+/*Lines*/ 
+header h1 {font-size: 2.5rem; letter-spacing: 3px; text-align: center; padding: 10px 0; border-top: 4px solid gray; border-bottom: 4px solid gray;}
+
+/* Images */
+.header-img {max-height: 150px; width:auto; object-fit: contain; margin: 0 20px;}
+
+/* nav */
+nav ul li ul {display: none; position: absolute; top:100%;left:0;background-color: #0d7de6;padding:10px;list-style:none;}
+nav ul li:hover > ul {display:block}
+nav ul li ul li {padding:8px 12px; border-bottom: 2px solid black;}
+nav {border-top: 4px solid gray; margin-top:10px; padding-top: 10px;border-bottom: 4px solid gray; padding-bottom: 10px; margin-bottom: 10px;}
+nav ul {list-style: none;display: flex;gap: 20px;margin-top: 10px; padding: 10px 0;}
+nav ul li {position: relative;}
+nav a {color: white; text-decoration: none; font-weight: bold; padding: 6px 10px; transition: 0.2s ease-in-out;}
+nav a:hover {background-color: white; color: #0d7de6; border-radius: 4px;} 
+
+/* home page */
+main {padding: 20px;}
+
+/*Contact Form*/
+/* Form text color */
+main, main h1, main label, main p {
+    color: white;
+}
+
+/* Text Input */
+input[type="text"] {
+    background-color: #222;color: white;border: 1px solid #555;padding: 5px;}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"] {background-color: #0d7de6;color: white;border: none;padding: 8px 12px;cursor: pointer;}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {background-color: white;color: #0d7de6;}
+
+/* Post Container*/
+.post-container{ background-color: #111;border: 2px solid gray; padding:20px; margin-top:20px; border-radius: 6px; color: white;}
+
+/* Footer */
+footer {background-color:darkgrey;color: white;padding: 5px 10px;margin-top: 800px;}
